@@ -1,5 +1,12 @@
 # GardeniasCodeEditor
 
+## Features
+
+- monospace font
+- syntex highlighting
+- built-in terminal
+- **Feal free to add yours**
+
 ## Reference
 
 1. Python Version: 3.10.9
