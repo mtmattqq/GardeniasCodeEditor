@@ -18,13 +18,15 @@ class App(customtkinter.CTk):
         self.font = customtkinter.CTkFont(family="Cascadia Code", size=16)
         self.textbox = customtkinter.CTkTextbox(self, width=200, font=self.font, wrap="word")
         self.textbox.tag_config("1", foreground="red")
-        self.textbox.insert(index=0.0, text="red color", tags="1")
-        
+        self.textbox.insert(index=0.0, text="red color", tags="1")        
         self.textbox.grid(row=2, column=1, padx=20, pady=(0, 20), sticky="w")
         
     def button_callback(self):
         print("button pressed")
-        
 
-app = App()
-app.mainloop()
+def main() -> None:
+    app = App()
+    app.mainloop()
+
+if __name__ == "__main__":
+    main()
