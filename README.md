@@ -10,6 +10,7 @@
 - find and replace
 - settings
 - built-in debugger for c++
+- bracket pair colorization
 - **Feel free to add yours**
 
 ## Reference
