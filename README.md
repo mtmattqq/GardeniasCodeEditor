@@ -5,6 +5,11 @@
 - monospace font
 - syntax highlighting
 - built-in terminal
+- file explorer
+- shortcuts
+- find and replace
+- settings
+- built-in debugger for c++
 - **Feel free to add yours**
 
 ## Reference
