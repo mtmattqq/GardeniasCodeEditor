@@ -3,9 +3,9 @@
 ## Features
 
 - monospace font
-- syntex highlighting
+- syntax highlighting
 - built-in terminal
-- **Feal free to add yours**
+- **Feel free to add yours**
 
 ## Reference
 
