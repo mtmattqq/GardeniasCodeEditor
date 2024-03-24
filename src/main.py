@@ -1,7 +1,6 @@
 import customtkinter
 from typing import List
-from util import text_index_advance
-
+from util.util import text_index_advance
 class App(customtkinter.CTk):
     def __init__(self):
         super().__init__()
