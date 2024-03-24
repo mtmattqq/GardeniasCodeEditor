@@ -40,6 +40,11 @@ def main():
     print(rep_test_result('add Position', pos1 + pos2 == Position(14 + 28, 16 + 7)))
     print(rep_test_result('sub Position', pos1 - pos2 == Position(14 - 28, 16 - 7)))
     print(rep_test_result('mul Position with int', pos1 * 156 == Position(14 * 156, 16 * 156)))
+    ret: bool = (
+        (pos1 != pos2) and (Position(-10, 10) == Position(-10, 10)) and 
+        (Position(1, 2) != Position(2, 1)) and (Position(1, 1) != Position(1, 2)) and
+        (Position(2, 2) != Position(5, 2)))
+    print(rep_test_result('equal and not equal', ret))
 
 if __name__ == '__main__':
     main()
